@@ -1,4 +1,17 @@
 body {
   background-color: aqua;
 }
+
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+.wrapper .cell {
+  height: 300px;
+  background-color: white;
+  border: 10px solid red;
+}
 /*# sourceMappingURL=style.css.map */
